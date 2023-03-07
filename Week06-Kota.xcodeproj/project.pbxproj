@@ -1,0 +1,602 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		014A8DFA29B7CF3300C8354E /* Week06_KotaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 014A8DF929B7CF3300C8354E /* Week06_KotaApp.swift */; };
+		014A8DFC29B7CF3300C8354E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 014A8DFB29B7CF3300C8354E /* ContentView.swift */; };
+		014A8DFE29B7CF3400C8354E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 014A8DFD29B7CF3400C8354E /* Assets.xcassets */; };
+		014A8E0129B7CF3400C8354E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 014A8E0029B7CF3400C8354E /* Preview Assets.xcassets */; };
+		014A8E0B29B7CF3500C8354E /* Week06_KotaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 014A8E0A29B7CF3500C8354E /* Week06_KotaTests.swift */; };
+		014A8E1529B7CF3500C8354E /* Week06_KotaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 014A8E1429B7CF3500C8354E /* Week06_KotaUITests.swift */; };
+		014A8E1729B7CF3500C8354E /* Week06_KotaUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 014A8E1629B7CF3500C8354E /* Week06_KotaUITestsLaunchTests.swift */; };
+		014A8E2629B7D30700C8354E /* DogVsCat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 014A8E2529B7D30700C8354E /* DogVsCat.swift */; };
+		014A8E2829B7D59700C8354E /* CharacterSelect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 014A8E2729B7D59700C8354E /* CharacterSelect.swift */; };
+		014A8E2A29B7E07E00C8354E /* AudioPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 014A8E2929B7E07E00C8354E /* AudioPlayer.swift */; };
+		014A8E2C29B7E23300C8354E /* song.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 014A8E2B29B7E23300C8354E /* song.mp3 */; };
+		014A8E2E29B7E39500C8354E /* Link.png in Resources */ = {isa = PBXBuildFile; fileRef = 014A8E2D29B7E39500C8354E /* Link.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		014A8E0729B7CF3500C8354E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 014A8DEE29B7CF3300C8354E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 014A8DF529B7CF3300C8354E;
+			remoteInfo = "Week06-Kota";
+		};
+		014A8E1129B7CF3500C8354E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 014A8DEE29B7CF3300C8354E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 014A8DF529B7CF3300C8354E;
+			remoteInfo = "Week06-Kota";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		014A8DF629B7CF3300C8354E /* Week06-Kota.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Week06-Kota.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		014A8DF929B7CF3300C8354E /* Week06_KotaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Week06_KotaApp.swift; sourceTree = "<group>"; };
+		014A8DFB29B7CF3300C8354E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		014A8DFD29B7CF3400C8354E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		014A8E0029B7CF3400C8354E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		014A8E0629B7CF3500C8354E /* Week06-KotaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Week06-KotaTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		014A8E0A29B7CF3500C8354E /* Week06_KotaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Week06_KotaTests.swift; sourceTree = "<group>"; };
+		014A8E1029B7CF3500C8354E /* Week06-KotaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Week06-KotaUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		014A8E1429B7CF3500C8354E /* Week06_KotaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Week06_KotaUITests.swift; sourceTree = "<group>"; };
+		014A8E1629B7CF3500C8354E /* Week06_KotaUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Week06_KotaUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		014A8E2529B7D30700C8354E /* DogVsCat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DogVsCat.swift; sourceTree = "<group>"; };
+		014A8E2729B7D59700C8354E /* CharacterSelect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterSelect.swift; sourceTree = "<group>"; };
+		014A8E2929B7E07E00C8354E /* AudioPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioPlayer.swift; sourceTree = "<group>"; };
+		014A8E2B29B7E23300C8354E /* song.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = song.mp3; sourceTree = "<group>"; };
+		014A8E2D29B7E39500C8354E /* Link.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Link.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		014A8DF329B7CF3300C8354E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		014A8E0329B7CF3500C8354E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		014A8E0D29B7CF3500C8354E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		014A8DED29B7CF3300C8354E = {
+			isa = PBXGroup;
+			children = (
+				014A8DF829B7CF3300C8354E /* Week06-Kota */,
+				014A8E0929B7CF3500C8354E /* Week06-KotaTests */,
+				014A8E1329B7CF3500C8354E /* Week06-KotaUITests */,
+				014A8DF729B7CF3300C8354E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		014A8DF729B7CF3300C8354E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				014A8DF629B7CF3300C8354E /* Week06-Kota.app */,
+				014A8E0629B7CF3500C8354E /* Week06-KotaTests.xctest */,
+				014A8E1029B7CF3500C8354E /* Week06-KotaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		014A8DF829B7CF3300C8354E /* Week06-Kota */ = {
+			isa = PBXGroup;
+			children = (
+				014A8E2B29B7E23300C8354E /* song.mp3 */,
+				014A8DF929B7CF3300C8354E /* Week06_KotaApp.swift */,
+				014A8DFB29B7CF3300C8354E /* ContentView.swift */,
+				014A8E2729B7D59700C8354E /* CharacterSelect.swift */,
+				014A8E2929B7E07E00C8354E /* AudioPlayer.swift */,
+				014A8E2529B7D30700C8354E /* DogVsCat.swift */,
+				014A8DFD29B7CF3400C8354E /* Assets.xcassets */,
+				014A8E2D29B7E39500C8354E /* Link.png */,
+				014A8DFF29B7CF3400C8354E /* Preview Content */,
+			);
+			path = "Week06-Kota";
+			sourceTree = "<group>";
+		};
+		014A8DFF29B7CF3400C8354E /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				014A8E0029B7CF3400C8354E /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		014A8E0929B7CF3500C8354E /* Week06-KotaTests */ = {
+			isa = PBXGroup;
+			children = (
+				014A8E0A29B7CF3500C8354E /* Week06_KotaTests.swift */,
+			);
+			path = "Week06-KotaTests";
+			sourceTree = "<group>";
+		};
+		014A8E1329B7CF3500C8354E /* Week06-KotaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				014A8E1429B7CF3500C8354E /* Week06_KotaUITests.swift */,
+				014A8E1629B7CF3500C8354E /* Week06_KotaUITestsLaunchTests.swift */,
+			);
+			path = "Week06-KotaUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		014A8DF529B7CF3300C8354E /* Week06-Kota */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 014A8E1A29B7CF3500C8354E /* Build configuration list for PBXNativeTarget "Week06-Kota" */;
+			buildPhases = (
+				014A8DF229B7CF3300C8354E /* Sources */,
+				014A8DF329B7CF3300C8354E /* Frameworks */,
+				014A8DF429B7CF3300C8354E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Week06-Kota";
+			productName = "Week06-Kota";
+			productReference = 014A8DF629B7CF3300C8354E /* Week06-Kota.app */;
+			productType = "com.apple.product-type.application";
+		};
+		014A8E0529B7CF3500C8354E /* Week06-KotaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 014A8E1D29B7CF3500C8354E /* Build configuration list for PBXNativeTarget "Week06-KotaTests" */;
+			buildPhases = (
+				014A8E0229B7CF3500C8354E /* Sources */,
+				014A8E0329B7CF3500C8354E /* Frameworks */,
+				014A8E0429B7CF3500C8354E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				014A8E0829B7CF3500C8354E /* PBXTargetDependency */,
+			);
+			name = "Week06-KotaTests";
+			productName = "Week06-KotaTests";
+			productReference = 014A8E0629B7CF3500C8354E /* Week06-KotaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		014A8E0F29B7CF3500C8354E /* Week06-KotaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 014A8E2029B7CF3500C8354E /* Build configuration list for PBXNativeTarget "Week06-KotaUITests" */;
+			buildPhases = (
+				014A8E0C29B7CF3500C8354E /* Sources */,
+				014A8E0D29B7CF3500C8354E /* Frameworks */,
+				014A8E0E29B7CF3500C8354E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				014A8E1229B7CF3500C8354E /* PBXTargetDependency */,
+			);
+			name = "Week06-KotaUITests";
+			productName = "Week06-KotaUITests";
+			productReference = 014A8E1029B7CF3500C8354E /* Week06-KotaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		014A8DEE29B7CF3300C8354E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					014A8DF529B7CF3300C8354E = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					014A8E0529B7CF3500C8354E = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 014A8DF529B7CF3300C8354E;
+					};
+					014A8E0F29B7CF3500C8354E = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 014A8DF529B7CF3300C8354E;
+					};
+				};
+			};
+			buildConfigurationList = 014A8DF129B7CF3300C8354E /* Build configuration list for PBXProject "Week06-Kota" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 014A8DED29B7CF3300C8354E;
+			productRefGroup = 014A8DF729B7CF3300C8354E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				014A8DF529B7CF3300C8354E /* Week06-Kota */,
+				014A8E0529B7CF3500C8354E /* Week06-KotaTests */,
+				014A8E0F29B7CF3500C8354E /* Week06-KotaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		014A8DF429B7CF3300C8354E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				014A8E0129B7CF3400C8354E /* Preview Assets.xcassets in Resources */,
+				014A8E2E29B7E39500C8354E /* Link.png in Resources */,
+				014A8DFE29B7CF3400C8354E /* Assets.xcassets in Resources */,
+				014A8E2C29B7E23300C8354E /* song.mp3 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		014A8E0429B7CF3500C8354E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		014A8E0E29B7CF3500C8354E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		014A8DF229B7CF3300C8354E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				014A8E2629B7D30700C8354E /* DogVsCat.swift in Sources */,
+				014A8DFC29B7CF3300C8354E /* ContentView.swift in Sources */,
+				014A8E2A29B7E07E00C8354E /* AudioPlayer.swift in Sources */,
+				014A8DFA29B7CF3300C8354E /* Week06_KotaApp.swift in Sources */,
+				014A8E2829B7D59700C8354E /* CharacterSelect.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		014A8E0229B7CF3500C8354E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				014A8E0B29B7CF3500C8354E /* Week06_KotaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		014A8E0C29B7CF3500C8354E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				014A8E1529B7CF3500C8354E /* Week06_KotaUITests.swift in Sources */,
+				014A8E1729B7CF3500C8354E /* Week06_KotaUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		014A8E0829B7CF3500C8354E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 014A8DF529B7CF3300C8354E /* Week06-Kota */;
+			targetProxy = 014A8E0729B7CF3500C8354E /* PBXContainerItemProxy */;
+		};
+		014A8E1229B7CF3500C8354E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 014A8DF529B7CF3300C8354E /* Week06-Kota */;
+			targetProxy = 014A8E1129B7CF3500C8354E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		014A8E1829B7CF3500C8354E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		014A8E1929B7CF3500C8354E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		014A8E1B29B7CF3500C8354E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Week06-Kota/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "molab.Week06-Kota";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		014A8E1C29B7CF3500C8354E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Week06-Kota/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "molab.Week06-Kota";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		014A8E1E29B7CF3500C8354E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "molab.Week06-KotaTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Week06-Kota.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Week06-Kota";
+			};
+			name = Debug;
+		};
+		014A8E1F29B7CF3500C8354E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "molab.Week06-KotaTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Week06-Kota.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Week06-Kota";
+			};
+			name = Release;
+		};
+		014A8E2129B7CF3500C8354E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "molab.Week06-KotaUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Week06-Kota";
+			};
+			name = Debug;
+		};
+		014A8E2229B7CF3500C8354E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "molab.Week06-KotaUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Week06-Kota";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		014A8DF129B7CF3300C8354E /* Build configuration list for PBXProject "Week06-Kota" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				014A8E1829B7CF3500C8354E /* Debug */,
+				014A8E1929B7CF3500C8354E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		014A8E1A29B7CF3500C8354E /* Build configuration list for PBXNativeTarget "Week06-Kota" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				014A8E1B29B7CF3500C8354E /* Debug */,
+				014A8E1C29B7CF3500C8354E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		014A8E1D29B7CF3500C8354E /* Build configuration list for PBXNativeTarget "Week06-KotaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				014A8E1E29B7CF3500C8354E /* Debug */,
+				014A8E1F29B7CF3500C8354E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		014A8E2029B7CF3500C8354E /* Build configuration list for PBXNativeTarget "Week06-KotaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				014A8E2129B7CF3500C8354E /* Debug */,
+				014A8E2229B7CF3500C8354E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 014A8DEE29B7CF3300C8354E /* Project object */;
+}
