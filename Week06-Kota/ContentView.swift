@@ -11,14 +11,20 @@ struct ContentView: View {
     var body: some View {
         NavigationView {
             VStack(spacing: 50) {
-                NavigationLink (destination: DogVsCat()) {
-                    Text("Dog vs Cat")
+                NavigationLink (destination: ManipulateImage()) {
+                    Text("Image Manipulator")
+                }
+                NavigationLink (destination: ManipulateText()) {
+                    Text("Text Manipulator")
+                }
+                NavigationLink (destination: AudioPlayer()) {
+                    Text("Audio Player")
                 }
                 NavigationLink (destination: CharacterSelect()) {
                     Text("Character Select")
                 }
-                NavigationLink (destination: AudioPlayer()) {
-                    Text("Audio Player")
+                NavigationLink (destination: DogVsCat()) {
+                    Text("Dog vs Cat")
                 }
                 .navigationTitle("Home Screen")
             }

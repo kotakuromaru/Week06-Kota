@@ -19,6 +19,9 @@
 		014A8E2A29B7E07E00C8354E /* AudioPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 014A8E2929B7E07E00C8354E /* AudioPlayer.swift */; };
 		014A8E2C29B7E23300C8354E /* song.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 014A8E2B29B7E23300C8354E /* song.mp3 */; };
 		014A8E2E29B7E39500C8354E /* Link.png in Resources */ = {isa = PBXBuildFile; fileRef = 014A8E2D29B7E39500C8354E /* Link.png */; };
+		015386D629C9DA3800E557AD /* ManipulateText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 015386D529C9DA3800E557AD /* ManipulateText.swift */; };
+		015386D829C9DF5D00E557AD /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 015386D729C9DF5D00E557AD /* ImagePicker.swift */; };
+		015386DA29C9DFA200E557AD /* ManipulateImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 015386D929C9DFA200E557AD /* ManipulateImage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +57,9 @@
 		014A8E2929B7E07E00C8354E /* AudioPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioPlayer.swift; sourceTree = "<group>"; };
 		014A8E2B29B7E23300C8354E /* song.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = song.mp3; sourceTree = "<group>"; };
 		014A8E2D29B7E39500C8354E /* Link.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Link.png; sourceTree = "<group>"; };
+		015386D529C9DA3800E557AD /* ManipulateText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManipulateText.swift; sourceTree = "<group>"; };
+		015386D729C9DF5D00E557AD /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
+		015386D929C9DFA200E557AD /* ManipulateImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManipulateImage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +116,9 @@
 				014A8E2729B7D59700C8354E /* CharacterSelect.swift */,
 				014A8E2929B7E07E00C8354E /* AudioPlayer.swift */,
 				014A8E2529B7D30700C8354E /* DogVsCat.swift */,
+				015386D529C9DA3800E557AD /* ManipulateText.swift */,
+				015386D929C9DFA200E557AD /* ManipulateImage.swift */,
+				015386D729C9DF5D00E557AD /* ImagePicker.swift */,
 				014A8DFD29B7CF3400C8354E /* Assets.xcassets */,
 				014A8E2D29B7E39500C8354E /* Link.png */,
 				014A8DFF29B7CF3400C8354E /* Preview Content */,
@@ -277,6 +286,9 @@
 				014A8E2629B7D30700C8354E /* DogVsCat.swift in Sources */,
 				014A8DFC29B7CF3300C8354E /* ContentView.swift in Sources */,
 				014A8E2A29B7E07E00C8354E /* AudioPlayer.swift in Sources */,
+				015386DA29C9DFA200E557AD /* ManipulateImage.swift in Sources */,
+				015386D829C9DF5D00E557AD /* ImagePicker.swift in Sources */,
+				015386D629C9DA3800E557AD /* ManipulateText.swift in Sources */,
 				014A8DFA29B7CF3300C8354E /* Week06_KotaApp.swift in Sources */,
 				014A8E2829B7D59700C8354E /* CharacterSelect.swift in Sources */,
 			);
