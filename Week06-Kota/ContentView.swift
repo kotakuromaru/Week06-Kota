@@ -11,6 +11,9 @@ struct ContentView: View {
     var body: some View {
         NavigationView {
             VStack(spacing: 50) {
+                NavigationLink (destination: VideoView()) {
+                    Text("Video Manipulator")
+                }
                 NavigationLink (destination: ManipulateImage()) {
                     Text("Image Manipulator")
                 }
